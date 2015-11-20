@@ -1,0 +1,206 @@
+
+
+@font-face {
+	font-family: iconic;
+    src: url(font-awesome/fonts/wingding.ttf);
+}
+@font-face {
+	font-family: sutonny;
+	src: url(font-awesome/fonts/sutonny.ttf);
+}
+.navbar-transparent {
+	background: transparent;
+    border: none;
+    font-weight: bold;
+}
+.bg-title {
+	background-attachment: fixed;
+	background-image: url(img/title-background.jpg);
+	padding-bottom: 14%;
+	padding-top: 10%;
+	padding-right: 25%;
+	padding-left: 25%;
+	text-align: center;
+}
+.bg-body {
+	background-attachment: fixed;
+	background-image: url(img/art.jpg);
+}
+.bg-title h1, .bg-title h2, .bg-title p {
+	font-family: sutonny;
+	color: silver;
+}
+.bg-title h6 {
+	font-family: iconic;
+	font-size: 800%;
+	color: silver;
+}
+.fixed-side {
+        position: fixed;
+        top: 30%;
+    }
+    .fixed-side i {
+        font-size: 220%;
+        display: block;
+        margin-left: 8px;
+        color: gray;
+        opacity: 0.3;
+    }
+    .fixed-side a {
+    	text-decoration: none;
+    }
+    .fixed-side i:hover {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        -webkit-transition-duration: 0.35s;
+        transition-duration: 0.35s;
+    }
+    .facebook:hover {
+        color: #3b5998;
+        opacity: 1;
+    }
+    .twitter:hover {
+        color: #00aced;
+        opacity: 1;
+    }
+    .google-plus:hover {
+        color: #dd4b39;
+        opacity: 1;
+    }
+    .linkedin:hover {
+        color: #007bb6;
+        opacity: 1;
+    }
+    .flickr:hover {
+        color: #ff0084;
+        opacity: 1;
+    }
+    .pinterest:hover {
+        color: #cb2027;
+        opacity: 1;
+    }
+    .github:hover {
+        color: silver;
+        opacity: 1;
+    }
+    
+.toplink i {
+    position: fixed;
+    bottom: 2px;
+    right: 5px;
+    font-size: 35px;
+    color: gray;
+    opacity: 0.4;
+}
+.tr {
+	background: transparent;
+}
+.lbl h5 {
+	display: inline-block;
+	border: 2px solid gray;
+	width: 150px;
+	height: 30px;
+	padding: 5px;
+	color: gray;
+	border-radius: 4px;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	font-size: 105%;
+}
+.a {
+	text-decoration: none;
+}
+.b {
+	text-decoration: none;
+}
+.c {
+	text-decoration: none;
+}
+.d {
+	text-decoration: none;
+}
+.e {
+	text-decoration: none;
+}
+.f {
+	text-decoration: none;
+}
+.g {
+	text-decoration: none;
+}
+.a h5:hover {
+	border: 2px solid #66CCFF;
+	background-color: #66CCFF;
+	color: white;
+	cursor: pointer;
+}
+.b h5:hover {
+	background-color: #9C9CFF;
+	border: 2px solid #9C9CFF;
+	cursor: pointer;
+	color: white;
+}
+.c h5:hover {
+	background-color: #0066FF;
+	border: 2px solid #0066FF;
+	cursor: pointer;
+	color: white;
+}
+.d h5:hover {
+	background-color: #009900;
+	border: 2px solid #009900;
+	cursor: pointer;
+	color: white;
+}
+.e h5:hover {
+	background-color: #FF6600;
+	border: 2px solid #FF6600;
+	cursor: pointer;
+	color: white;
+}
+.f h5:hover {
+	background-color: #FF6600;
+	border: 2px solid #FF6600;
+	cursor: pointer;
+	color: white;
+}
+.g h5:hover {
+	background-color: #CC0000;
+	border: 2px solid #CC0000;
+	cursor: pointer;
+	color: white;
+}
+.logo {
+	width: 160px;
+	margin: 0 auto;
+}
+hr {
+	border: 0;
+	width: 100%;
+	color: black;
+	background-color: black;
+	height: 3px;
+}
+.name h3 {
+	border: 3px solid black;
+	border-radius: 50%;
+	padding: 6px;
+	display: block;
+	width: 125%;
+	text-align: center;
+	margin-left: -20px;
+	margin-right: -20px;
+	font-weight: bold;
+}
+.name:hover h3 {
+	border:none;
+	font-size: 200%;
+	color: gray;
+	cursor: pointer;
+}
+.family img {
+	height: 150px;
+    width: 150px;
+    margin: 0 auto;
+}
