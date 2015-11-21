@@ -228,4 +228,14 @@ hr {
 }
 .trb:hover {
 	opacity: 1;
+  	transition-duration: 0.8s;
+}
+.pm button {
+	background: transparent;
+	color: black;
+	text-align: left;
+	opacity: 1;
+}
+.pp {
+	padding: 30px;
 }
