@@ -15,7 +15,7 @@
 }
 .bg-title {
 	background-attachment: fixed;
-	background-image: url(img/title-background.jpg);
+	background-image: url(img/title-background1.jpg);
 	padding-bottom: 14%;
 	padding-top: 10%;
 	padding-right: 25%;
@@ -30,11 +30,6 @@
 	font-family: sutonny;
 	color: silver;
 }
-.bg-title h6 {
-	font-family: iconic;
-	font-size: 800%;
-	color: silver;
-}
 .fixed-side {
         position: fixed;
         top: 30%;
@@ -42,7 +37,7 @@
     .fixed-side i {
         font-size: 220%;
         display: block;
-        margin-left: 8px;
+        margin-left: 7px;
         color: gray;
         opacity: 0.3;
     }
@@ -83,6 +78,10 @@
         color: silver;
         opacity: 1;
     }
+    .skype:hover {
+    	color: #12A5F4;
+    	opacity: 1;
+    }
     
 .toplink i {
     position: fixed;
@@ -98,15 +97,15 @@
 .lbl h5 {
 	display: inline-block;
 	border: 2px solid gray;
-	width: 150px;
+	width: 160px;
 	height: 30px;
-	padding: 5px;
+	padding: 6px;
 	color: gray;
 	border-radius: 4px;
 	margin-right: 3px;
 	margin-left: 3px;
 	margin-bottom: 3px;
-	font-size: 105%;
+	font-size: 100%;
 }
 .a {
 	text-decoration: none;
