@@ -3380,10 +3380,9 @@
 .hvr-icon-up:hover:before, .hvr-icon-up:focus:before, .hvr-icon-up:active:before {
   -webkit-animation-name: hvr-icon-up;
   animation-name: hvr-icon-up;
-  -webkit-animation-duration: 0.75s;
-  animation-duration: 0.75s;
-  -webkit-animation-timing-function: ease-out;
-  animation-timing-function: ease-out;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  cursor: pointer;
 }
 
 /* Icon Drop */
@@ -3520,7 +3519,6 @@
 /* Icon Float Away */
 .hvr-icon-float-away {
   display: inline-block;
-  vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -3531,7 +3529,6 @@
   padding-right: 2.2em;
 }
 .hvr-icon-float-away:before, .hvr-icon-float-away:after {
-  content: "\f055";
   position: absolute;
   right: 1em;
   padding: 0 1px;
