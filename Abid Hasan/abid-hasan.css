@@ -8,10 +8,21 @@
 	font-family: sutonny;
 	src: url(font-awesome/fonts/sutonny.ttf);
 }
-.navbar-transparent {
+.nt {
 	background: transparent;
-    border: none;
-    font-weight: bold;
+    position: fixed;
+    top: 0;
+    right: 5px;
+    opacity: 0.3;
+}
+.nt a {
+	display: inline-block;
+    margin: 5px;
+    color: green;
+    font-size: 120%;
+}
+.nt:hover {
+	opacity: 1;
 }
 .bg-title {
 	background-attachment: fixed;
@@ -31,7 +42,7 @@
 	color: silver;
 }
 .bg-script {
-	background: url(img/story-background2.jpg);
+	background: url(img/story-background.jpg);
 	text-align: center;
 	padding: 5%;
 }

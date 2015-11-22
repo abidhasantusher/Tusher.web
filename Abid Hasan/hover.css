@@ -3201,6 +3201,31 @@
 }
 
 /* ICONS */
+    /* Icon Spin */
+    .hvr-icon-spin {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        position: relative;
+    }
+    .hvr-icon-spin:before {
+        float: center;
+        font-family: FontAwesome;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        -webkit-transition-timing-function: ease-in-out;
+        transition-timing-function: ease-in-out;
+    }
+    .hvr-icon-spin:hover:before, .hvr-icon-spin:focus:before, .hvr-icon-spin:active:before {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 /* Icon Back */
 .hvr-icon-back {
   display: inline-block;
