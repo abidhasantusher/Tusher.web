@@ -83,7 +83,7 @@
         opacity: 1;
     }
     .linkedin:hover {
-        color: #007bb6;
+        color: #0077b5;
         opacity: 1;
     }
     .flickr:hover {
@@ -251,5 +251,9 @@ hr {
 	opacity: 1;
 }
 .pp {
-	padding: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.pp h4 {
+	text-align: center;
 }
