@@ -19,7 +19,7 @@
 	display: inline-block;
     margin: 5px;
     color: green;
-    font-size: 120%;
+    font-size: 150%;
 }
 .nt:hover {
 	opacity: 1;
@@ -43,8 +43,12 @@
 }
 .bg-script {
 	background: url(img/story-background.jpg);
-	text-align: center;
-	padding: 5%;
+	padding: 7%;
+	margin: 0 auto;
+}
+.bg-story {
+	background: url(img/ele1.png);
+	background-attachment: fixed;
 }
 .fixed-side {
         position: fixed;
@@ -198,7 +202,6 @@ hr {
 	height: 3px;
 }
 .name h3 {
-	border: 3px solid black;
 	border-radius: 50%;
 	padding: 6px;
 	display: block;
