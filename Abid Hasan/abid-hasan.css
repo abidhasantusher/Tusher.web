@@ -239,15 +239,6 @@ hr {
 	padding: 5px;
 	color: silver;
 }
-
-.trb {
-	background: transparent;
-	opacity: 0.3;
-}
-.trb:hover {
-	opacity: 1;
-  	transition-duration: 0.8s;
-}
 .pm button {
 	background: transparent;
 	color: black;
