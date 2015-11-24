@@ -105,11 +105,19 @@
     
 .toplink i {
     position: fixed;
-    bottom: 2px;
-    right: 5px;
+    bottom: 8px;
+    right: 10px;
     font-size: 35px;
-    color: gray;
-    opacity: 0.4;
+    color: purple;
+    opacity: 0.3;
+}
+.toplink i:hover {
+	color: #00aced;
+	opacity: 1;
+	-webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition-duration: 0.35s;
+    transition-duration: 0.35s;
 }
 .tr {
 	background: transparent;
@@ -256,4 +264,12 @@ hr {
 }
 .pp h4 {
 	text-align: center;
+}
+.grids {
+    height: 170px;
+}
+.panel {
+}
+.pad {
+	padding: 5px;
 }
