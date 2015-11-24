@@ -261,10 +261,16 @@ hr {
 .pp h4 {
 	text-align: center;
 }
-.grids {
-    height: 170px;
-    width: 95%;
-}
 .panel {
-    border: 4px solid black;
+    height: 170px;
+    padding: 5px;
+}
+.panel:hover {
+	overflow: gray;
+}
+.panel i {
+	opacity: 0;
+}
+.panel i:hover {
+	opacity: 1; 
 }
