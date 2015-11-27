@@ -253,15 +253,27 @@ hr {
 	text-align: center;
 }
 .panel {
-    height: 170px;
-    padding: 5px;
+    height: auto;
+    padding: 15px;
+    background: transparent;
+}
+.panel:hover .overlap {
+	opacity: 0.7;
+}
+.panel .overlap {
+	font-size: 100%;
+	opacity: 0;
+	color: #333300;
+	text-align: right;
 }
 .panel:hover {
-	overflow: gray;
+	border: 1px solid silver;
+	cursor: pointer;
+	background: #FFFFFF;
+	}
+.panel .overlap:hover {
+	opacity: 1;
 }
-.panel i {
-	opacity: 0;
-}
-.panel i:hover {
-	opacity: 1; 
+.panel h5 {
+	font-weight: bold;
 }
