@@ -258,7 +258,7 @@ hr {
     background: transparent;
 }
 .panel:hover .overlap {
-	opacity: 0.7;
+	opacity: 1;
 }
 .panel .overlap {
 	font-size: 100%;
@@ -277,9 +277,12 @@ hr {
 .panel h5 {
 	font-weight: bold;
 }
+.panel i {
+	color: gray;
+}
 .overlap i:hover {
-        -webkit-transform: scale(1.5);
-        transform: scale(1.5);
+        -webkit-transform: scale(1.8);
+        transform: scale(1.8);
         -webkit-transition-duration: 0.35s;
         transition-duration: 0.35s;
 }
