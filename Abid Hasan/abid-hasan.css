@@ -254,7 +254,7 @@ hr {
 }
 .panel {
     height: auto;
-    padding: 15px;
+    padding: 10px;
     background: transparent;
 }
 .panel:hover .overlap {
@@ -276,4 +276,10 @@ hr {
 }
 .panel h5 {
 	font-weight: bold;
+}
+.overlap i:hover {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        -webkit-transition-duration: 0.35s;
+        transition-duration: 0.35s;
 }
