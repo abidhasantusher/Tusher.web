@@ -12,7 +12,7 @@
 	background: transparent;
     position: fixed;
     top: 0;
-    right: 5px;
+    right: 8%;
     opacity: 0.3;
 }
 .nt a {
@@ -23,6 +23,7 @@
 }
 .nt:hover {
 	opacity: 1;
+	font-size: 140%;
 }
 .bg-title {
 	background-attachment: fixed;
@@ -239,26 +240,21 @@ hr {
 	padding: 5px;
 	color: silver;
 }
-.pm button {
-	background: transparent;
-	color: black;
-	text-align: left;
-	opacity: 1;
-}
 .pp {
 	padding-left: 30px;
 	padding-right: 30px;
 }
-.pp h4 {
+.pp h4, .pp p, .pp h5 {
 	text-align: center;
 }
 .panel {
-    height: auto;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     background: transparent;
+    margin-bottom: 0;
 }
 .panel:hover .overlap {
-	opacity: 0.7;
+	opacity: 1;
 }
 .panel .overlap {
 	font-size: 100%;
@@ -268,8 +264,8 @@ hr {
 }
 .panel:hover {
 	border: 1px solid silver;
-	cursor: pointer;
 	background: #FFFFFF;
+	cursor: default;
 	}
 .panel .overlap:hover {
 	opacity: 1;
@@ -277,9 +273,16 @@ hr {
 .panel h5 {
 	font-weight: bold;
 }
+.panel i {
+	color: gray;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
 .overlap i:hover {
-        -webkit-transform: scale(1.5);
-        transform: scale(1.5);
-        -webkit-transition-duration: 0.35s;
-        transition-duration: 0.35s;
+        -webkit-transform: scale(1.8);
+        transform: scale(1.8);
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
 }
