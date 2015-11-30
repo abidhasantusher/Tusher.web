@@ -279,6 +279,7 @@ hr {
 }
 .panel i {
 	color: gray;
+	padding-left: 2px;
 }
 .overlap i:hover {
         -webkit-transform: scale(1.8);
