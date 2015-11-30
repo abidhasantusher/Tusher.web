@@ -239,23 +239,18 @@ hr {
 	padding: 5px;
 	color: silver;
 }
-.pm button {
-	background: transparent;
-	color: black;
-	text-align: left;
-	opacity: 1;
-}
 .pp {
 	padding-left: 30px;
 	padding-right: 30px;
 }
-.pp h4 {
+.pp h4, .pp p, .pp h5 {
 	text-align: center;
 }
 .panel {
-    height: auto;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     background: transparent;
+    margin-bottom: 0;
 }
 .panel:hover .overlap {
 	opacity: 1;
@@ -279,7 +274,9 @@ hr {
 }
 .panel i {
 	color: gray;
-	padding-left: 2px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 5px;
 }
 .overlap i:hover {
         -webkit-transform: scale(1.8);
