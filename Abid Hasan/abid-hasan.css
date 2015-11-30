@@ -12,7 +12,7 @@
 	background: transparent;
     position: fixed;
     top: 0;
-    right: 5px;
+    right: 8%;
     opacity: 0.3;
 }
 .nt a {
@@ -23,6 +23,7 @@
 }
 .nt:hover {
 	opacity: 1;
+	font-size: 140%;
 }
 .bg-title {
 	background-attachment: fixed;
@@ -263,8 +264,8 @@ hr {
 }
 .panel:hover {
 	border: 1px solid silver;
-	cursor: pointer;
 	background: #FFFFFF;
+	cursor: default;
 	}
 .panel .overlap:hover {
 	opacity: 1;
@@ -277,10 +278,11 @@ hr {
 	padding-left: 1px;
 	padding-right: 1px;
 	padding-bottom: 5px;
+	cursor: pointer;
 }
 .overlap i:hover {
         -webkit-transform: scale(1.8);
         transform: scale(1.8);
-        -webkit-transition-duration: 0.35s;
-        transition-duration: 0.35s;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
 }
