@@ -1,5 +1,3 @@
-
-
 @font-face {
 	font-family: iconic;
     src: url(font-awesome/fonts/wingding.ttf);
@@ -12,7 +10,7 @@
 	background: transparent;
     position: fixed;
     top: 0;
-    right: 8%;
+    right: 5px;
     opacity: 0.3;
 }
 .nt a {
@@ -23,7 +21,6 @@
 }
 .nt:hover {
 	opacity: 1;
-	font-size: 140%;
 }
 .bg-title {
 	background-attachment: fixed;
@@ -240,18 +237,23 @@ hr {
 	padding: 5px;
 	color: silver;
 }
+.pm button {
+	background: transparent;
+	color: black;
+	text-align: left;
+	opacity: 1;
+}
 .pp {
 	padding-left: 30px;
 	padding-right: 30px;
 }
-.pp h4, .pp p, .pp h5 {
+.pp h4 {
 	text-align: center;
 }
 .panel {
-    padding-left: 10px;
-    padding-right: 10px;
+    height: auto;
+    padding: 10px;
     background: transparent;
-    margin-bottom: 0;
 }
 .panel:hover .overlap {
 	opacity: 1;
@@ -264,8 +266,8 @@ hr {
 }
 .panel:hover {
 	border: 1px solid silver;
+	cursor: pointer;
 	background: #FFFFFF;
-	cursor: default;
 	}
 .panel .overlap:hover {
 	opacity: 1;
@@ -275,14 +277,12 @@ hr {
 }
 .panel i {
 	color: gray;
-	padding-left: 1px;
-	padding-right: 1px;
-	padding-bottom: 5px;
-	cursor: pointer;
+	padding-left: 2px;
 }
 .overlap i:hover {
         -webkit-transform: scale(1.8);
         transform: scale(1.8);
-        -webkit-transition-duration: 0.2s;
-        transition-duration: 0.2s;
+        -webkit-transition-duration: 0.35s;
+        transition-duration: 0.35s;
 }
+
